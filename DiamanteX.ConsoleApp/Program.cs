@@ -40,15 +40,21 @@
 
             int novoContador = 2;
             contador--;
-            for( int i = 0; i<=aux; i++)
+            for( int i = 0; i< aux; i++)
             {
                 for(int j = 0; j < novoContador; j++)
                 {
                     Console.Write(" ");
                 }
                 novoContador++;
+                contador -= 2;
 
-                for(int k = 0; k < )
+                for(int k = 0; k < contador; k++)
+                {
+                    Console.Write("x");
+                }
+                Console.Write("\n");
+
                 
             }
             
